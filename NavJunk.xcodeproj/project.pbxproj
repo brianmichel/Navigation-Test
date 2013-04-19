@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48EFA9421721F1AC0097B293 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFA9411721F1AC0097B293 /* UIKit.framework */; };
+		48EFA9441721F1AC0097B293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFA9431721F1AC0097B293 /* Foundation.framework */; };
+		48EFA9461721F1AC0097B293 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFA9451721F1AC0097B293 /* CoreGraphics.framework */; };
+		48EFA94C1721F1AC0097B293 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48EFA94A1721F1AC0097B293 /* InfoPlist.strings */; };
+		48EFA94E1721F1AC0097B293 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EFA94D1721F1AC0097B293 /* main.m */; };
+		48EFA9521721F1AC0097B293 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EFA9511721F1AC0097B293 /* AppDelegate.m */; };
+		48EFA9541721F1AC0097B293 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 48EFA9531721F1AC0097B293 /* Default.png */; };
+		48EFA9561721F1AC0097B293 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48EFA9551721F1AC0097B293 /* Default@2x.png */; };
+		48EFA9581721F1AC0097B293 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48EFA9571721F1AC0097B293 /* Default-568h@2x.png */; };
+		48EFA95B1721F1AC0097B293 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EFA95A1721F1AC0097B293 /* ViewController.m */; };
+		48EFA95E1721F1AC0097B293 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48EFA95C1721F1AC0097B293 /* ViewController_iPhone.xib */; };
+		48EFA9611721F1AC0097B293 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48EFA95F1721F1AC0097B293 /* ViewController_iPad.xib */; };
+		48EFA9691721F1AC0097B293 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFA9681721F1AC0097B293 /* SenTestingKit.framework */; };
+		48EFA96A1721F1AC0097B293 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFA9411721F1AC0097B293 /* UIKit.framework */; };
+		48EFA96B1721F1AC0097B293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFA9431721F1AC0097B293 /* Foundation.framework */; };
+		48EFA9731721F1AC0097B293 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48EFA9711721F1AC0097B293 /* InfoPlist.strings */; };
+		48EFA9761721F1AC0097B293 /* NavJunkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EFA9751721F1AC0097B293 /* NavJunkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48EFA96C1721F1AC0097B293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48EFA9361721F1AC0097B293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48EFA93D1721F1AC0097B293;
+			remoteInfo = NavJunk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48EFA93E1721F1AC0097B293 /* NavJunk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavJunk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EFA9411721F1AC0097B293 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48EFA9431721F1AC0097B293 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48EFA9451721F1AC0097B293 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48EFA9491721F1AC0097B293 /* NavJunk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavJunk-Info.plist"; sourceTree = "<group>"; };
+		48EFA94B1721F1AC0097B293 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48EFA94D1721F1AC0097B293 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48EFA94F1721F1AC0097B293 /* NavJunk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavJunk-Prefix.pch"; sourceTree = "<group>"; };
+		48EFA9501721F1AC0097B293 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48EFA9511721F1AC0097B293 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48EFA9531721F1AC0097B293 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		48EFA9551721F1AC0097B293 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		48EFA9571721F1AC0097B293 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		48EFA9591721F1AC0097B293 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48EFA95A1721F1AC0097B293 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48EFA95D1721F1AC0097B293 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		48EFA9601721F1AC0097B293 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		48EFA9671721F1AC0097B293 /* NavJunkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavJunkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EFA9681721F1AC0097B293 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		48EFA9701721F1AC0097B293 /* NavJunkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavJunkTests-Info.plist"; sourceTree = "<group>"; };
+		48EFA9721721F1AC0097B293 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48EFA9741721F1AC0097B293 /* NavJunkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavJunkTests.h; sourceTree = "<group>"; };
+		48EFA9751721F1AC0097B293 /* NavJunkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavJunkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48EFA93B1721F1AC0097B293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EFA9421721F1AC0097B293 /* UIKit.framework in Frameworks */,
+				48EFA9441721F1AC0097B293 /* Foundation.framework in Frameworks */,
+				48EFA9461721F1AC0097B293 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EFA9631721F1AC0097B293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EFA9691721F1AC0097B293 /* SenTestingKit.framework in Frameworks */,
+				48EFA96A1721F1AC0097B293 /* UIKit.framework in Frameworks */,
+				48EFA96B1721F1AC0097B293 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48EFA9351721F1AC0097B293 = {
+			isa = PBXGroup;
+			children = (
+				48EFA9471721F1AC0097B293 /* NavJunk */,
+				48EFA96E1721F1AC0097B293 /* NavJunkTests */,
+				48EFA9401721F1AC0097B293 /* Frameworks */,
+				48EFA93F1721F1AC0097B293 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48EFA93F1721F1AC0097B293 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48EFA93E1721F1AC0097B293 /* NavJunk.app */,
+				48EFA9671721F1AC0097B293 /* NavJunkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48EFA9401721F1AC0097B293 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48EFA9411721F1AC0097B293 /* UIKit.framework */,
+				48EFA9431721F1AC0097B293 /* Foundation.framework */,
+				48EFA9451721F1AC0097B293 /* CoreGraphics.framework */,
+				48EFA9681721F1AC0097B293 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48EFA9471721F1AC0097B293 /* NavJunk */ = {
+			isa = PBXGroup;
+			children = (
+				48EFA9501721F1AC0097B293 /* AppDelegate.h */,
+				48EFA9511721F1AC0097B293 /* AppDelegate.m */,
+				48EFA9591721F1AC0097B293 /* ViewController.h */,
+				48EFA95A1721F1AC0097B293 /* ViewController.m */,
+				48EFA95C1721F1AC0097B293 /* ViewController_iPhone.xib */,
+				48EFA95F1721F1AC0097B293 /* ViewController_iPad.xib */,
+				48EFA9481721F1AC0097B293 /* Supporting Files */,
+			);
+			path = NavJunk;
+			sourceTree = "<group>";
+		};
+		48EFA9481721F1AC0097B293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48EFA9491721F1AC0097B293 /* NavJunk-Info.plist */,
+				48EFA94A1721F1AC0097B293 /* InfoPlist.strings */,
+				48EFA94D1721F1AC0097B293 /* main.m */,
+				48EFA94F1721F1AC0097B293 /* NavJunk-Prefix.pch */,
+				48EFA9531721F1AC0097B293 /* Default.png */,
+				48EFA9551721F1AC0097B293 /* Default@2x.png */,
+				48EFA9571721F1AC0097B293 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48EFA96E1721F1AC0097B293 /* NavJunkTests */ = {
+			isa = PBXGroup;
+			children = (
+				48EFA9741721F1AC0097B293 /* NavJunkTests.h */,
+				48EFA9751721F1AC0097B293 /* NavJunkTests.m */,
+				48EFA96F1721F1AC0097B293 /* Supporting Files */,
+			);
+			path = NavJunkTests;
+			sourceTree = "<group>";
+		};
+		48EFA96F1721F1AC0097B293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48EFA9701721F1AC0097B293 /* NavJunkTests-Info.plist */,
+				48EFA9711721F1AC0097B293 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48EFA93D1721F1AC0097B293 /* NavJunk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EFA9791721F1AC0097B293 /* Build configuration list for PBXNativeTarget "NavJunk" */;
+			buildPhases = (
+				48EFA93A1721F1AC0097B293 /* Sources */,
+				48EFA93B1721F1AC0097B293 /* Frameworks */,
+				48EFA93C1721F1AC0097B293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavJunk;
+			productName = NavJunk;
+			productReference = 48EFA93E1721F1AC0097B293 /* NavJunk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48EFA9661721F1AC0097B293 /* NavJunkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EFA97C1721F1AC0097B293 /* Build configuration list for PBXNativeTarget "NavJunkTests" */;
+			buildPhases = (
+				48EFA9621721F1AC0097B293 /* Sources */,
+				48EFA9631721F1AC0097B293 /* Frameworks */,
+				48EFA9641721F1AC0097B293 /* Resources */,
+				48EFA9651721F1AC0097B293 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48EFA96D1721F1AC0097B293 /* PBXTargetDependency */,
+			);
+			name = NavJunkTests;
+			productName = NavJunkTests;
+			productReference = 48EFA9671721F1AC0097B293 /* NavJunkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48EFA9361721F1AC0097B293 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Brian Michel";
+			};
+			buildConfigurationList = 48EFA9391721F1AC0097B293 /* Build configuration list for PBXProject "NavJunk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48EFA9351721F1AC0097B293;
+			productRefGroup = 48EFA93F1721F1AC0097B293 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48EFA93D1721F1AC0097B293 /* NavJunk */,
+				48EFA9661721F1AC0097B293 /* NavJunkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48EFA93C1721F1AC0097B293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EFA94C1721F1AC0097B293 /* InfoPlist.strings in Resources */,
+				48EFA9541721F1AC0097B293 /* Default.png in Resources */,
+				48EFA9561721F1AC0097B293 /* Default@2x.png in Resources */,
+				48EFA9581721F1AC0097B293 /* Default-568h@2x.png in Resources */,
+				48EFA95E1721F1AC0097B293 /* ViewController_iPhone.xib in Resources */,
+				48EFA9611721F1AC0097B293 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EFA9641721F1AC0097B293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EFA9731721F1AC0097B293 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48EFA9651721F1AC0097B293 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48EFA93A1721F1AC0097B293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EFA94E1721F1AC0097B293 /* main.m in Sources */,
+				48EFA9521721F1AC0097B293 /* AppDelegate.m in Sources */,
+				48EFA95B1721F1AC0097B293 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EFA9621721F1AC0097B293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EFA9761721F1AC0097B293 /* NavJunkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48EFA96D1721F1AC0097B293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48EFA93D1721F1AC0097B293 /* NavJunk */;
+			targetProxy = 48EFA96C1721F1AC0097B293 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48EFA94A1721F1AC0097B293 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48EFA94B1721F1AC0097B293 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48EFA95C1721F1AC0097B293 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48EFA95D1721F1AC0097B293 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		48EFA95F1721F1AC0097B293 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48EFA9601721F1AC0097B293 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		48EFA9711721F1AC0097B293 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48EFA9721721F1AC0097B293 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48EFA9771721F1AC0097B293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48EFA9781721F1AC0097B293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48EFA97A1721F1AC0097B293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavJunk/NavJunk-Prefix.pch";
+				INFOPLIST_FILE = "NavJunk/NavJunk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48EFA97B1721F1AC0097B293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavJunk/NavJunk-Prefix.pch";
+				INFOPLIST_FILE = "NavJunk/NavJunk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		48EFA97D1721F1AC0097B293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavJunk.app/NavJunk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavJunk/NavJunk-Prefix.pch";
+				INFOPLIST_FILE = "NavJunkTests/NavJunkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		48EFA97E1721F1AC0097B293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavJunk.app/NavJunk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavJunk/NavJunk-Prefix.pch";
+				INFOPLIST_FILE = "NavJunkTests/NavJunkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48EFA9391721F1AC0097B293 /* Build configuration list for PBXProject "NavJunk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EFA9771721F1AC0097B293 /* Debug */,
+				48EFA9781721F1AC0097B293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EFA9791721F1AC0097B293 /* Build configuration list for PBXNativeTarget "NavJunk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EFA97A1721F1AC0097B293 /* Debug */,
+				48EFA97B1721F1AC0097B293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48EFA97C1721F1AC0097B293 /* Build configuration list for PBXNativeTarget "NavJunkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EFA97D1721F1AC0097B293 /* Debug */,
+				48EFA97E1721F1AC0097B293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48EFA9361721F1AC0097B293 /* Project object */;
+}
