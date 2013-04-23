@@ -8,7 +8,13 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "ButtonNavigationController.h"
+#import "AppViewController.h"
+
+@interface AppDelegate ()
+@property (strong) JASidePanelController *revealController;
+@property (strong) AppViewController *appViewController;
+@end
 
 @implementation AppDelegate
 
@@ -16,14 +22,29 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
-    } else {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
-    }
-    self.window.rootViewController = self.viewController;
+    self.appViewController = [[AppViewController alloc] init];
+    
+    self.revealController = [[JASidePanelController alloc] init];
+    self.revealController.shouldResizeLeftPanel = YES;
+    self.revealController.centerPanel = self.appViewController;
+    self.revealController.panningLimitedToTopViewController = NO;
+    self.revealController.leftPanel = self.appViewController.navigationTable;
+    self.window.rootViewController = self.revealController;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)showCart:(id)sender {
+    UIViewController *vc = [[UIViewController alloc] init];
+    vc.view.backgroundColor = [UIColor magentaColor];
+    vc.title = @"Cart";
+    vc.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(dismissCart:)];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self.window.rootViewController presentViewController:nav animated:YES completion:nil];
+}
+
+- (void)dismissCart:(id)sender {
+    [self.window.rootViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

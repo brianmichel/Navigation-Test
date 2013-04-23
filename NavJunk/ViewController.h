@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, readonly) UIBarButtonItem *cartItem;
+
+@property (assign) BOOL showHamburger;
+@property (assign) BOOL showCart;
 @end
