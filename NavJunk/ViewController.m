@@ -11,6 +11,7 @@
 
 @interface ViewController ()
 @property (strong) UIButton *button;
+@property (strong) UIBarButtonItem *searchButton;
 @end
 
 @implementation ViewController
@@ -22,6 +23,8 @@
     self = [super init];
     if (self) {
         _cartItem = [[UIBarButtonItem alloc] initWithTitle:@"Cart" style:UIBarButtonItemStyleBordered target:nil action:nil];
+        self.searchButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:nil action:nil];
+        self.showCart = NO;
     }
     return self;
 }
@@ -70,7 +73,7 @@
 #pragma mark - Setters / Getters
 - (void)setShowCart:(BOOL)showCart {
     _showCart = showCart;
-    self.navigationItem.rightBarButtonItem = _showCart ? _cartItem : nil;
+    self.navigationItem.rightBarButtonItems = _showCart ? @[_cartItem, self.searchButton] : @[self.searchButton];
 }
 
 - (BOOL)showCart {
